@@ -1,0 +1,10 @@
+public String repeatEnd(String str, int n) 
+{
+  String word=str.substring(str.length()-n);
+  String output="";
+  for (int k=1; k<=n; k++)
+  {
+    output += word;
+  }
+  return output;
+}
